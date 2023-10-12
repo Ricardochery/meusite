@@ -8,7 +8,7 @@ body{
     height: 100%; /* altura */ 
     display: flex;
     justify-content: center;
-    background-color: rgb(130, 167, 231);
+    background-color: rgb(205, 220, 202);
 }
 .imagem {
     display: flex;
@@ -25,21 +25,25 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: blue;   /*cor para texto*/
+    color: rgb(58, 58, 95);   /*cor para texto*/
     font-family: Arial, Helvetica, sans-serif;
 }
 .redes-sociais{
+    display: flex;
     margin-top: 10px; /* margem superior*/
     justify-content: center;/*centralizar o texto*/
     align-items: center;
+}
+.redes-sociais a{
+    text-decoration: none;
 }
 .icone, .email{
     height: 35px;
     width: 35px;
     border-radius: 30px;
     transition: all 0.3s ease-out;
-    box-shadow: 0 5px  5px rgb(220, 15, 15); /*caixa de sombra*/
-    margin: 5px;
+    box-shadow: 0 5px  5px rgb(194, 42, 42); /*caixa de sombra*/
+    margin: 15px;
     overflow: hidden; /*efeito mascara*/
 }
 .icone i, .email i{
@@ -50,7 +54,39 @@ body{
     text-align: center; /* alinhar texto */
     font-size: 22px;
     border-radius: 30px;
-    background-color: rgb(180, 196, 196);
+    background-color: rgb(176, 199, 199);
     color: #6b94c0; /*cor do texto*/
     cursor: pointer;
+}
+.icone span a{
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 23px;
+    color: blueviolet;
+    font-size: 17px;
+    line-height: 35px; 
+}
+.icone:hover{
+    width: 125px;
+    background-color: rgb(199, 210, 220);
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px; 
+    width: 550px; ;
+    height: 150px;
+    padding:  50px;
+    border-radius:30px;
+    color: aliceblue;
+    background: #1d60a8;
+    overflow: hidden;
+    box-shadow: 7px 7px 15px black
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: #308ff4;
 }
