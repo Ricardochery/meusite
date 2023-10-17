@@ -73,17 +73,32 @@ body{
 }
 .texto{
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    margin-top:35px; 
-    width: 550px; ;
-    height: 150px;
+    margin: 50px 30px; 
+    font-family: 'victor mono' monospace;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px; ;
+    height: 200px;
     padding:  50px;
-    border-radius:30px;
-    color: aliceblue;
-    background: #1d60a8;
+    border-radius:24px;
+    color: rgb(237, 233, 233);
+    background: rgb(3, 26, 62);
     overflow: hidden;
-    box-shadow: 7px 7px 15px black
+    box-shadow: 0 3px rgb(0,0,0, .1);
+}
+.sobre-mim{
+    position: absolute ;
+    top: px;
+    display: flex;
+    color: whitesmoke ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align:center;
+     font-size: 30px; 
+    line-height: 35px;
+
 }
 h2{
     margin-top: 50px;
