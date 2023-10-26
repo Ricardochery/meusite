@@ -157,3 +157,70 @@ body{
     display: block;
     
 }
+.rodape p {
+    color: #1a4994;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px ;
+    font-family: 'Metal Mania', cursive;
+}
+
+/* Recursos que Renderiza o conteudo do site e adapte para diverças resoluções */ 
+
+/*  resolução 700px  */
+@media (max-width: 700px) {
+    .imagem img {
+        width: 150px;
+        border-radius: 200px;
+        margin-top: 25px;
+    }
+    .texto {
+        width: 300px;
+        height: 500px;
+    }
+    .linguagem img{
+        width: 165px;
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    .item {
+        width: 350px;
+    }
+    #movie {
+        width: 350px;
+    }
+} /*  resolução 700px  */
+
+
+@media (max-width: 500px) {
+    .imagem img{
+        width: 120px;
+        margin-top: 30px;
+    }
+    .nome {
+        font-size: 40px;
+    }
+    .texto {
+        padding: 22px;
+        width: 250px;
+        height: 700px;
+        margin-top: 35px;
+    }
+    .subtitulo {
+        margin-top: 35px;
+        font-size: 20px;
+    }
+    .item {
+        width: 260px;
+        height: 40px;
+        margin-top: 12px;
+    }
+}
+/*    */
+@media (min-width: 700px) and (orientation: landscape)
+    {
+
+    }
